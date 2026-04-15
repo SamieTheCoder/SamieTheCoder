@@ -225,7 +225,7 @@ export const html = `
     <div class='container'>
         <header>
             <div class='logolinks'>
-                <img class='logo-img' src='/favicon.png' alt='Samie Logo' />
+                <img class='logo-img' src='https://readme.samsite.in.net/favicon.png' alt='Samie Logo' />
                 <nav class='text-sm font-medium' aria-label='Main navigation'>
                     <ul class='navlinks'>
                         <li><a href='https://readme.samsite.in.net' target='_blank' rel='noopener noreferrer'>Home</a></li>
@@ -253,7 +253,7 @@ export const html = `
                     </span>
                 </div>
                 <div class='avatarsquare'>
-                    <img src='/favicon.png' alt='Md Samie Sohrab avatar' />
+                    <img src='https://readme.samsite.in.net/favicon.png' alt='Md Samie Sohrab avatar' />
                 </div>
             </div>
             <div class='buttons'>
