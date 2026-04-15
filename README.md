@@ -58,3 +58,9 @@ Full-stack dev crafting mobile & web experiences with React Native, Node.js, Sup
 ---
 
 *Built with precision. Shipped with purpose.*
+
+---
+
+## Live Card
+
+[![Md Samie Sohrab](https://readme.samsite.in.net/api/readme?section=readme)](https://readme.samsite.in.net)

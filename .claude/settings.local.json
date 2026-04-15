@@ -7,7 +7,24 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:readme.ricardo.gg)",
       "Bash(curl -sL \"https://api.github.com/users/SamieTheCoder/repos?sort=updated&per_page=30\")",
-      "Bash(python3 -c \"import sys,json; repos=json.load\\(sys.stdin\\); [print\\(r['name'],'|', r.get\\('description'\\) or '', '|', r.get\\('language'\\) or ''\\) for r in repos[:20]]\")"
+      "Bash(python3 -c \"import sys,json; repos=json.load\\(sys.stdin\\); [print\\(r['name'],'|', r.get\\('description'\\) or '', '|', r.get\\('language'\\) or ''\\) for r in repos[:20]]\")",
+      "Bash(curl -sL \"https://readme.ricardo.gg/api/r?repo=risixdzn\")",
+      "Bash(curl -sL \"https://api.github.com/repos/risixdzn/risixdzn/contents\")",
+      "Bash(python3 -c \"import sys,json; items=json.load\\(sys.stdin\\); [print\\(i['name'],i['type']\\) for i in items]\")",
+      "Bash(python -c \"import sys,json; items=json.load\\(sys.stdin\\); [print\\(i['name'],i['type']\\) for i in items]\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/app/api/readme/route.ts\")",
+      "Bash(curl -sL \"https://api.github.com/repos/risixdzn/risixdzn/contents/src\")",
+      "Bash(curl -sL \"https://api.github.com/repos/risixdzn/risixdzn/git/trees/main?recursive=1\")",
+      "Bash(python -c \" import sys,json data=json.load\\(sys.stdin\\) for item in data.get\\('tree',[]\\): print\\(item['path'], item['type']\\) \")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/app/api/render/route.tsx\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/app/page.tsx\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/components/Readme.tsx\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/lib/shared.ts\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/risixdzn/risixdzn/main/src/lib/svg.ts\")",
+      "Bash(curl:*)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\lib\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\components\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\app\\\\api\\\\readme\")"
     ]
   }
 }
