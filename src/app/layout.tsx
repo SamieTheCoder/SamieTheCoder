@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Full-stack developer crafting mobile & web experiences with React Native, Node.js, Supabase & real-time systems.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://www.dropbox.com/scl/fi/4qitz4sy3xuby90f7gm0h/og-image..png?rlkey=sb3lm7wqiu80fhh7u3bbt5y1s&st=8dtru7vs&dl=0",
         width: 1200,
         height: 630,
         alt: "Md Samie Sohrab - Builder. Maker. Founder.",
@@ -55,7 +55,9 @@ export const metadata: Metadata = {
     title: "Md Samie Sohrab | Builder. Maker. Founder.",
     description:
       "Full-stack developer crafting mobile & web experiences with React Native, Node.js, Supabase & real-time systems.",
-    images: ["/og-image.png"],
+    images: [
+      "https://www.dropbox.com/scl/fi/4qitz4sy3xuby90f7gm0h/og-image..png?rlkey=sb3lm7wqiu80fhh7u3bbt5y1s&st=8dtru7vs&dl=0",
+    ],
     creator: "@scientific_samie",
   },
   robots: {
