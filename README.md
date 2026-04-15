@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hey, I'm Samie
 
-## Getting Started
+**Builder. Maker. Founder.** — I ship fast, fail fast, learn faster.
 
-First, run the development server:
+Full-stack dev crafting mobile & web experiences with React Native, Node.js, Supabase & real-time systems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Connect
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/scientific_samie/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-samie-sohrab)
+[![Website](https://img.shields.io/badge/Website-222?style=flat-square&logo=google-chrome&logoColor=white)](https://samsite.in.net)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:samie@trackyfy.in.net)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native"> React Native</code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"> Next.js</code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"> Node.js</code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase"> Supabase</code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"> PostgreSQL</code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"> TypeScript</code>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pinned Projects
 
-## Deploy on Vercel
+<a href="https://github.com/SamieTheCoder/eventify">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=eventify&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
+<a href="https://github.com/SamieTheCoder/qrStats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=qrStats&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
+<a href="https://github.com/SamieTheCoder/WakeOpus">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=WakeOpus&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
+<a href="https://github.com/SamieTheCoder/agrobot">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=agrobot&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
+<a href="https://github.com/SamieTheCoder/biometric-production">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=biometric-production&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
+<a href="https://github.com/SamieTheCoder/backend_race">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SamieTheCoder&repo=backend_race&theme=transparent&hide_border=true&title_color=222&text_color=666" />
+</a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stats
+
+![Samie's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SamieTheCoder&theme=transparent&hide_border=true&title_color=222&text_color=666)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SamieTheCoder&layout=compact&hide_border=true&title_color=222&text_color=666)
+
+---
+
+*Built with precision. Shipped with purpose.*
