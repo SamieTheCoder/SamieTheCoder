@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://readme.samsite.in.net",
-    siteName: "Samie Sohrab",
+    siteName: "Md Samie Sohrab",
     title: "Md Samie Sohrab | Maker. Builder. Founder. | Managing Director at TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
     description:
       "Maker. Builder. Founder. | Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED | Full-stack Developer | React Native | Node.js | Supabase | Based in India",
@@ -115,6 +115,28 @@ export default function RootLayout({
                 "https://github.com/SamieTheCoder",
                 "https://twitter.com/scientific_samie",
               ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Md Samie Sohrab",
+              url: "https://readme.samsite.in.net",
+              description:
+                "Maker. Builder. Founder. Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://readme.samsite.in.net?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
             }),
           }}
         />
