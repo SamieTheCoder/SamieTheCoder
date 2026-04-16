@@ -1,3 +1,6 @@
+import { readFileSync } from "fs";
+import { join } from "path";
+
 interface Attributes {
     height: string;
 }
@@ -14,7 +17,18 @@ export const svg = (styles: string, html: string, attributes: Attributes) => {
       </svg>`;
 };
 
-export const join = (styles: string, html: string) => {
+export const imageToDataUri = (imagePath: string): string => {
+    try {
+        const buffer = readFileSync(join(process.cwd(), "public", imagePath));
+        const base64 = buffer.toString("base64");
+        const mimeType = imagePath.endsWith(".png") ? "image/png" : "image/jpeg";
+        return `data:${mimeType};base64,${base64}`;
+    } catch {
+        return "";
+    }
+};
+
+export const htmlJoin = (styles: string, html: string) => {
     return `
         <style>${styles}</style>
         ${html}

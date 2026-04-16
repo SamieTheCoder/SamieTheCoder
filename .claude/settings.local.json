@@ -25,7 +25,8 @@
       "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\lib\")",
       "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\components\")",
       "Bash(mkdir -p \"C:\\\\Users\\\\scien\\\\OneDrive\\\\Documents\\\\samiethecoder\\\\src\\\\app\\\\api\\\\readme\")",
-      "mcp__OpusCode__understand_image"
+      "mcp__OpusCode__understand_image",
+      "Bash(npm run *)"
     ]
   }
 }

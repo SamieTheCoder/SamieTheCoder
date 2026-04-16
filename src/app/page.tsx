@@ -1,4 +1,4 @@
-import { join } from "@/lib/svg";
+import { htmlJoin as join } from "@/lib/svg";
 import { html, styles } from "@/components/Readme";
 
 export default function Home() {
