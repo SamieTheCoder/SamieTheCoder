@@ -2,6 +2,9 @@ import { shared_styles } from "@/lib/shared";
 import { svg, imageToDataUri } from "@/lib/svg";
 
 const LOGO_IMAGE = imageToDataUri("favicon.png");
+const TRACKYFY_IMAGE = imageToDataUri("trackyfy.png");
+const TALKEZY_IMAGE = imageToDataUri("talkezy.png");
+const KEYZFORGE_IMAGE = imageToDataUri("keyzforge.png");
 
 export const styles = `
     ${shared_styles}
@@ -169,6 +172,70 @@ export const styles = `
         background-color: hsl(var(--foreground));
     }
 
+    .products {
+        display: flex;
+        flex-direction: column;
+        gap: 12pt;
+    }
+
+    .products-label {
+        font-size: 0.75rem;
+        color: hsl(var(--muted-foreground));
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+    }
+
+    .product-row {
+        display: flex;
+        gap: 12pt;
+        align-items: stretch;
+    }
+
+    .product-card {
+        display: flex;
+        align-items: center;
+        gap: 10pt;
+        padding: 8pt 12pt;
+        border: 1px solid hsl(var(--border));
+        border-radius: var(--radius);
+        text-decoration: none;
+        color: hsl(var(--foreground));
+        background-color: hsl(var(--card));
+        flex: 1;
+        min-width: 0;
+    }
+
+    .product-card:hover {
+        background-color: hsl(var(--secondary));
+    }
+
+    .product-card img {
+        width: 36pt;
+        height: 36pt;
+        object-fit: contain;
+        border-radius: 6pt;
+        flex-shrink: 0;
+    }
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.25;
+        min-width: 0;
+    }
+
+    .product-name {
+        font-weight: 600;
+        font-size: 11pt;
+        white-space: nowrap;
+    }
+
+    .product-url {
+        font-size: 9pt;
+        color: hsl(var(--muted-foreground));
+        white-space: nowrap;
+    }
+
     .links {
         display: flex;
         gap: 12pt;
@@ -192,6 +259,10 @@ export const styles = `
     @media only screen and (max-width: 768px) {
         .container {
             padding: 24pt 24pt;
+        }
+
+        .product-row {
+            flex-direction: column;
         }
 
         .samiename {
@@ -266,6 +337,32 @@ export const html = `
                     <span class='cta-secondary tracking-tight'>Contact me</span>
                 </a>
             </div>
+            <div class='products'>
+                <span class='products-label font-medium'>Current products</span>
+                <div class='product-row'>
+                    <a class='product-card' href='https://trackyfy.in.net' target='_blank' rel='noopener noreferrer'>
+                        <img src='${TRACKYFY_IMAGE}' alt='Trackyfy logo' />
+                        <span class='product-info'>
+                            <span class='product-name tracking-tight'>Trackyfy</span>
+                            <span class='product-url'>trackyfy.in.net</span>
+                        </span>
+                    </a>
+                    <a class='product-card' href='https://talkezy.in' target='_blank' rel='noopener noreferrer'>
+                        <img src='${TALKEZY_IMAGE}' alt='Talkezy logo' />
+                        <span class='product-info'>
+                            <span class='product-name tracking-tight'>Talkezy</span>
+                            <span class='product-url'>talkezy.in</span>
+                        </span>
+                    </a>
+                    <a class='product-card' href='https://keyzforge.xyz' target='_blank' rel='noopener noreferrer'>
+                        <img src='${KEYZFORGE_IMAGE}' alt='KeyzForge logo' />
+                        <span class='product-info'>
+                            <span class='product-name tracking-tight'>KeyzForge</span>
+                            <span class='product-url'>keyzforge.xyz</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
         </section>
         <div class='divider' aria-hidden='true'></div>
         <nav class='links' aria-label='Social links'>
@@ -309,5 +406,5 @@ export const html = `
 `;
 
 export const Readme = () => {
-    return svg(styles, html, { height: "520" });
+    return svg(styles, html, { height: "720" });
 };
