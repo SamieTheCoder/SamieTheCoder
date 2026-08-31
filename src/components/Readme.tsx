@@ -406,5 +406,5 @@ export const html = `
 `;
 
 export const Readme = () => {
-    return svg(styles, html, { height: "720" });
+    return svg(styles, html, { height: "680" });
 };
