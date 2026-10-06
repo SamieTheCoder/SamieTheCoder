@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Md Samie Sohrab | Maker. Builder. Founder. | Managing Director at TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
+  title: "Md Samie Sohrab | Maker, Builder, Founder",
   description:
-    "Maker. Builder. Founder. | Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED | Full-stack Developer | React Native | Node.js | Supabase | Based in India",
+    "Maker, Builder, Founder & Managing Director at TRACKYVERSE. Full-stack Developer building with React Native, Node.js & Supabase in India.",
   keywords: [
     "Md Samie Sohrab",
     "Samie",
@@ -40,28 +40,32 @@ export const metadata: Metadata = {
   authors: [{ name: "Md Samie Sohrab" }],
   creator: "Md Samie Sohrab",
   metadataBase: new URL("https://readme.samsite.in.net"),
+  alternates: {
+    canonical: "https://readme.samsite.in.net/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://readme.samsite.in.net",
+    url: "https://readme.samsite.in.net/",
     siteName: "Md Samie Sohrab",
-    title: "Md Samie Sohrab | Maker. Builder. Founder. | Managing Director at TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
+    title: "Md Samie Sohrab | Maker, Builder, Founder",
     description:
-      "Maker. Builder. Founder. | Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED | Full-stack Developer | React Native | Node.js | Supabase | Based in India",
+      "Maker, Builder, Founder & Managing Director at TRACKYVERSE. Full-stack Developer building with React Native, Node.js & Supabase in India.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
-        height: 630,
+        height: 620,
         alt: "Md Samie Sohrab - Maker. Builder. Founder.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Md Samie Sohrab | Maker. Builder. Founder. | Managing Director at TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
+    site: "@scientific_samie",
+    title: "Md Samie Sohrab | Maker, Builder, Founder",
     description:
-      "Maker. Builder. Founder. | Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED | Full-stack Developer | React Native | Node.js | Supabase | Based in India",
+      "Maker, Builder, Founder & Managing Director at TRACKYVERSE. Full-stack Developer building with React Native, Node.js & Supabase in India.",
     images: ["/og-image.png"],
     creator: "@scientific_samie",
   },
@@ -89,10 +93,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="google-site-verification"
-          content="DHXWGxqts2FtZtU81Gi1Cv8J1ICNCb7WLXi-k79KB-U"
-        />
         <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
         <script
@@ -108,12 +108,15 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: "TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
               },
-              url: "https://readme.samsite.in.net",
+              url: "https://readme.samsite.in.net/",
+              image: "https://readme.samsite.in.net/og-image.png",
               description:
                 "Maker. Builder. Founder. Managing Director Of TRACKYVERSE TECHNOLOGIES PRIVATE LIMITED",
               sameAs: [
                 "https://github.com/SamieTheCoder",
                 "https://twitter.com/scientific_samie",
+                "https://www.linkedin.com/in/md-samie-sohrab",
+                "https://www.instagram.com/scientific_samie/",
               ],
             }),
           }}
